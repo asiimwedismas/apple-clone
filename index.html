@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Apple</title>
 </head>
+
 <body>
     <!-- header -->
     <header>
-        <div>
+        <div id="header-wrapper">
             <nav>
                 <ul>
-                    <li><a href="www.microverse.org">Home</a></li>
-                    <li><a href="www.microverse.org">Store</a></li>
-                    <li><a href="www.microverse.org">Mac</a></li>
-                    <li><a href="www.microverse.org">iPod</a></li>
-                    <li><a href="www.microverse.org">iPhone</a></li>
-                    <li><a href="www.microverse.org">iTunes</a></li>
-                    <li><a href="www.microverse.org">Support</a></li>
-                    <li><a href="www.microverse.org"></a></li>
-                    <li></li>
+                    <li class="header-nav-links"><a href="www.microverse.org">Home</a></li>
+                    <li class="header-nav-links"><a href="www.microverse.org">Store</a></li>
+                    <li class="header-nav-links"><a href="www.microverse.org">Mac</a></li>
+                    <li class="header-nav-links"><a href="www.microverse.org">iPod</a></li>
+                    <li class="header-nav-links"><a href="www.microverse.org">iPhone</a></li>                    
+                    <li class="header-nav-links"><a href="www.microverse.org">iPad</a></li>
+                    <li class="header-nav-links"><a href="www.microverse.org">iTunes</a></li>
+                    <li class="header-nav-links"><a href="www.microverse.org">Support</a></li>
+                    <li id="search-container">
+                        <form action="">
+                            <input type="search" name="search" id="search">
+                        </form>
+                    </li>
                 </ul>
             </nav>
 
             <div>
-                <p>What will your verse be?</p>
-                <p>Everyone has something to share. See how people are using iPad in their unique ways to add to the world's story.</p>
-                <p><a href="www.microverse.org">Watch the "Your Verse" film and explore the storeis</a></p>
+                <p class="header-word-links"><a id="link-main-title" href="www.microverse.org"></a></p>
+                <p class="header-word-links"><a id="link-sub-title" href="www.microverse.org"></a></p>
+                <p class="header-word-links"><a id="link-smallest-title" href="www.microverse.org"></a></p>
             </div>
         </div>
     </header>
-    <!-- main -->
-    <main>
-        <a href="www.microverse.org"></a>
-        <a href="www.microverse.org"></a>
-        <a href="www.microverse.org"></a>
-    </main>
+    <!-- aside -->
+    <aside>
+        <nav id="aside-nav">
+            <ul>
+                <li class="aside-links _5s"><a href="www.microverse.org"></a></li>
+                <li class="aside-links _5c"><a href="www.microverse.org"></a></li>
+                <li class="aside-links _30_years"><a href="www.microverse.org"></a></li>
+                <li class="aside-links _supplier_responsibility"><a href="www.microverse.org"></a></li>
+            </ul>
+        </nav>
+    </aside>
     <!-- footer -->
     <footer>
-        <span>Shop the <a href="www.microverse.org">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="www.microvere.org">Apple Retail Store</a>, or find a reseller.</span>
-
-        <nav>
-            <ul>
-                <li><a href="www.microver.org">Site Map</a><span class="vertical-divider">|</span></li>
-                <li><a href="www.microver.org">Hot News</a><span class="vertical-divider">|</span></li>
-                <li><a href="www.microver.org">RSS feeds</a><span class="vertical-divider">|</span></li>
-                <li><a href="www.microver.org">media info</a><span class="vertical-divider">|</span></li>
-                <li><a href="www.microver.org">enviroment</a><span class="vertical-divider">|</span></li>
-                <li><a href="www.microver.org">job opportunites</a><span class="vertical-divider">|</span></li>
-                <li><a href="www.microver.org">contacts us</a><span class="vertical-divider">|</span></li>
-                <li><a href="www.microver.org"><span>language</span></a></li>
-            </ul>
-        </nav>
-
-        <nav>
-            <ul>
-                <li><span class="discalimer">Copyright © 2014 Apple Inc. All rights reserved.</span></li>
-                <li><a href="www.microver.org">Terms of Use</a></li>
-                <li><a href="www.microver.org">Privacy Policy</a></li>
-            </ul>
-        </nav>
+        <div id="footer-wrapper">
+            <div id="first-footer">
+                <span class="float-left">Shop the <a href="www.microverse.org">Apple Online Store</a> (1-800-MY-APPLE), visit an <a
+                        href="www.microvere.org">Apple Retail Store</a>, or find a reseller.</span>
+                <nav class="float-right">
+                    <ul>
+                        <li><a href="www.microver.org">Site Map</a><span class="vertical-divider">|</span></li>
+                        <li><a href="www.microver.org">Hot News</a><span class="vertical-divider">|</span></li>
+                        <li><a href="www.microver.org">RSS feeds</a><span class="vertical-divider">|</span></li>
+                        <li><a href="www.microver.org">media info</a><span class="vertical-divider">|</span></li>
+                        <li><a href="www.microver.org">enviroment</a><span class="vertical-divider">|</span></li>
+                        <li><a href="www.microver.org">job opportunites</a><span class="vertical-divider">|</span></li>
+                        <li><a href="www.microver.org">contacts us</a><span class="vertical-divider">|</span></li>
+                        <li class="flag-icon"><a href="www.microver.org"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav id="last-footer" class="float-left">
+                <ul>
+                    <li><span class="discalimer">Copyright © 2014 Apple Inc. All rights reserved.</span></li>
+                    <li><a href="www.microver.org">Terms of Use</a><span class="vertical-divider">|</span></li>
+                    <li><a href="www.microver.org">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </body>
+
 </html>
