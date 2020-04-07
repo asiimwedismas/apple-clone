@@ -147,8 +147,16 @@ aside {
   border-right: 1px solid gray;
 }
 
+#header-wrapper > nav > ul > li > a:hover {
+  background: url(/img/globalheader.png) no-repeat right, radial-gradient(black, rgb(124, 124, 124));
+}
+
 #header-wrapper > nav > ul > li:first-child a {
   color: rgba(0, 0, 0, 0);
+}
+
+#header-wrapper > nav > ul > li:first-child a:hover {
+  background: url(/img/globalnav_text.png) no-repeat 50% 3px, radial-gradient(black, rgb(124, 124, 124) 98%);
 }
 
 #header-wrapper > nav > ul > li form {
