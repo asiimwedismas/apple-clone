@@ -4,13 +4,15 @@ Apple page clone to demonstrate created using floats, flex, background images an
 # Screenshot
 ![Image description](img/screenshot.png)
 
-
 # Built with
 - Html5
 - CSS
 
+# Note
+For some reason that is unknown to me at present, the live demo doesn't load background images at all and all my images are background. I suggest you clone and run it on your machine to review it.
+
 # Live Demo
-[Live demo](https://rawcdn.githack.com/Stricks1/NYTimes/bf49abd2017041d511a664cb67cc4d3c96babbc8/index.html)
+[Live demo](https://rawcdn.githack.com/asiimwedismas/apple-clone/534a3b16cf3e8a78b71b59907f307c706c0b6721/index.html)
 
 # Authors
  Dismas Asiimwe
