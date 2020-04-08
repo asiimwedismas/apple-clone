@@ -1,0 +1,206 @@
+header {
+  background: url('../img/your_verse_hero.jpg') no-repeat 50% 100%;
+  min-height: 538px;
+}
+
+
+/* footer styles */
+footer {
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: 0.8334em;
+  line-height: 1.2;
+}
+
+footer a {
+  text-transform: capitalize;
+}
+
+footer #footer-wrapper {
+  width: 980px;
+  margin: 0 auto;
+  padding: 1em 0 2.6em;
+}
+
+#footer-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#first-footer > * {
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+#last-footer {
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+}
+
+#last-footer ul li,
+#first-footer > *,
+#first-footer nav ul li {
+  display: inline-block;
+}
+
+#first-footer > nav > ul > li {
+  vertical-align: middle;
+}
+
+.flag-icon {
+  width: 16px;
+  height: 16px;
+  background: url('../img/usa.png');
+}
+
+
+/* aside styles */
+aside {
+  margin-top: 2px;
+  width: 100%;
+  min-width: 1024px;
+  max-width: 1440px;
+}
+
+.aside-links {
+  display: inline-block;
+  height: 200px;
+  width: calc(100% / 4);
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.aside-links:last-of-type {
+  width: 24.15%;
+}
+
+.aside-links > a {
+  display: block;
+  width: 100%;
+  height: inherit;
+}
+
+._5c > a {
+  background: url('../img/promo_iphone5c.jpg');
+}
+
+._5s > a {
+  background: url('../img/promo_iphone5s.jpg');
+}
+
+._30_years > a {
+  background: url('../img/promo_30_years.jpg');
+}
+
+._supplier_responsibility > a {
+  background: url('../img/promo_supplier_responsibility.jpg');
+}
+
+/* header styles */
+
+#header-wrapper > nav:first-child {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#header-wrapper > nav > ul {
+  display: flex;
+  height: 35px;
+  border: 1px solid #6e6e6e;
+  border-radius: 5px;
+}
+
+#header-wrapper > nav > ul > li {
+  flex: 1;
+  height: inherit;
+  background: linear-gradient(rgb(124, 124, 124) 50%, rgb(98, 98, 98) 50%, rgb(124, 124, 124) 95%);
+}
+
+#header-wrapper > nav > ul > li:first-child {
+  border-radius: 4px 0 0 4px;
+  background: url('../img/globalnav_text.png') no-repeat 50% 3px, linear-gradient(rgb(124, 124, 124) 50%, rgb(98, 98, 98) 50%, rgb(124, 124, 124) 95%);
+}
+
+#header-wrapper > nav > ul > li:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.header-word-links > a {
+  display: block;
+}
+
+#header-wrapper > nav > ul > li > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 34px;
+  color: #fff;
+  background: url('../img/globalheader.png') no-repeat right;
+  border-right: 1px solid gray;
+}
+
+#header-wrapper > nav > ul > li > a:hover {
+  background: url('../img/globalheader.png') no-repeat right, radial-gradient(black, rgb(124, 124, 124));
+}
+
+#header-wrapper > nav > ul > li:first-child a {
+  color: rgba(0, 0, 0, 0);
+}
+
+#header-wrapper > nav > ul > li:first-child a:hover {
+  background: url('../img/globalnav_text.png') no-repeat 50% 3px, radial-gradient(black, rgb(124, 124, 124) 98%);
+}
+
+#header-wrapper > nav > ul > li form {
+  line-height: 36px;
+  margin: 0 20px;
+  min-width: 100px;
+}
+
+#header-wrapper > nav > ul > li form input {
+  border: gray 1px inset;
+  background: rgba(1, 1, 1, 0) url('../img/globalsearch_field.png') no-repeat 5px 3px;
+  border-radius: 12px;
+  padding: 2px;
+  width: 100%;
+}
+
+#header-wrapper > nav > ul > li form input:focus {
+  background: white url('../img/globalsearch_field.png') no-repeat 5px -19px;
+  width: 150px;
+  padding-left: 25px;
+  outline: none;
+}
+
+#header-wrapper {
+  margin: 0 auto;
+  width: 980px;
+}
+
+#link-main-title {
+  background: url('../img/your_verse_title_small.png') no-repeat;
+  height: 100px;
+}
+
+#link-sub-title {
+  background: url('../img/your_verse_subhead_medium.png') no-repeat;
+  height: 86px;
+}
+
+#link-smallest-title {
+  margin-top: 20px;
+  height: 32px;
+  background: url('../img/cta_your_verse_27pt.png') no-repeat;
+}
+
+#link-smallest-title:hover {
+  background-position: 0 -32px;
+}
