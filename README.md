@@ -12,7 +12,7 @@ Apple page clone to demonstrate created using floats, flex, background images an
 For some reason that is unknown to me at present, the live demo doesn't load background images at all and all my images are background. I suggest you clone and run it on your machine to review it.
 
 # Live Demo
-[Live demo](https://rawcdn.githack.com/asiimwedismas/apple-clone/534a3b16cf3e8a78b71b59907f307c706c0b6721/index.html)
+[Live demo](https://rawcdn.githack.com/asiimwedismas/apple-clone/b62454ab3e298060b32e4a9eb184eb013a0fcebe/index.html)
 
 # Authors
  Dismas Asiimwe
