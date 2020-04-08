@@ -1,5 +1,5 @@
 header {
-  background: url("/img/your_verse_hero.jpg") no-repeat 50% 100%;
+  background: url('../img/your_verse_hero.jpg') no-repeat 50% 100%;
   min-height: 538px;
 }
 
@@ -56,7 +56,7 @@ footer #footer-wrapper {
 .flag-icon {
   width: 16px;
   height: 16px;
-  background: url("/img/usa.png");
+  background: url('../img/usa.png');
 }
 
 
@@ -87,19 +87,19 @@ aside {
 }
 
 ._5c > a {
-  background: url("/img/promo_iphone5c.jpg");
+  background: url('../img/promo_iphone5c.jpg');
 }
 
 ._5s > a {
-  background: url("/img/promo_iphone5s.jpg");
+  background: url('../img/promo_iphone5s.jpg');
 }
 
 ._30_years > a {
-  background: url("/img/promo_30_years.jpg");
+  background: url('../img/promo_30_years.jpg');
 }
 
 ._supplier_responsibility > a {
-  background: url("/img/promo_supplier_responsibility.jpg");
+  background: url('../img/promo_supplier_responsibility.jpg');
 }
 
 /* header styles */
@@ -124,7 +124,7 @@ aside {
 
 #header-wrapper > nav > ul > li:first-child {
   border-radius: 4px 0 0 4px;
-  background: url("/img/globalnav_text.png") no-repeat 50% 3px, linear-gradient(rgb(124, 124, 124) 50%, rgb(98, 98, 98) 50%, rgb(124, 124, 124) 95%);
+  background: url('../img/globalnav_text.png') no-repeat 50% 3px, linear-gradient(rgb(124, 124, 124) 50%, rgb(98, 98, 98) 50%, rgb(124, 124, 124) 95%);
 }
 
 #header-wrapper > nav > ul > li:last-child {
@@ -143,12 +143,12 @@ aside {
   vertical-align: middle;
   line-height: 34px;
   color: #fff;
-  background: url("/img/globalheader.png") no-repeat right;
+  background: url('../img/globalheader.png') no-repeat right;
   border-right: 1px solid gray;
 }
 
 #header-wrapper > nav > ul > li > a:hover {
-  background: url("/img/globalheader.png") no-repeat right, radial-gradient(black, rgb(124, 124, 124));
+  background: url('../img/globalheader.png') no-repeat right, radial-gradient(black, rgb(124, 124, 124));
 }
 
 #header-wrapper > nav > ul > li:first-child a {
@@ -156,7 +156,7 @@ aside {
 }
 
 #header-wrapper > nav > ul > li:first-child a:hover {
-  background: url("/img/globalnav_text.png") no-repeat 50% 3px, radial-gradient(black, rgb(124, 124, 124) 98%);
+  background: url('../img/globalnav_text.png') no-repeat 50% 3px, radial-gradient(black, rgb(124, 124, 124) 98%);
 }
 
 #header-wrapper > nav > ul > li form {
@@ -167,14 +167,14 @@ aside {
 
 #header-wrapper > nav > ul > li form input {
   border: gray 1px inset;
-  background: rgba(1, 1, 1, 0) url("/img/globalsearch_field.png") no-repeat 5px 3px;
+  background: rgba(1, 1, 1, 0) url('../img/globalsearch_field.png') no-repeat 5px 3px;
   border-radius: 12px;
   padding: 2px;
   width: 100%;
 }
 
 #header-wrapper > nav > ul > li form input:focus {
-  background: white url("/img/globalsearch_field.png") no-repeat 5px -19px;
+  background: white url('../img/globalsearch_field.png') no-repeat 5px -19px;
   width: 150px;
   padding-left: 25px;
   outline: none;
@@ -186,19 +186,19 @@ aside {
 }
 
 #link-main-title {
-  background: url("/img/your_verse_title_small.png") no-repeat;
+  background: url('../img/your_verse_title_small.png') no-repeat;
   height: 100px;
 }
 
 #link-sub-title {
-  background: url("/img/your_verse_subhead_medium.png") no-repeat;
+  background: url('../img/your_verse_subhead_medium.png') no-repeat;
   height: 86px;
 }
 
 #link-smallest-title {
   margin-top: 20px;
   height: 32px;
-  background: url("/img/cta_your_verse_27pt.png") no-repeat;
+  background: url('../img/cta_your_verse_27pt.png') no-repeat;
 }
 
 #link-smallest-title:hover {
